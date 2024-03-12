@@ -192,34 +192,34 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "A comprehesive list of projects undetaken to grow and learn coding, networking, system design & security.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Network Security",
+      projectDesc: "Academic projects with all dockerfiles used to create and learn about securing networks",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Github",
+          url: "https://github.com/kshd97/NwSec"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      // image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Multi-payment via Privacy Preserving Smart Contracts",
+      projectDesc: "To enable a more convenient and efficient private multi-payment scheme on Ethereum, we proposed to extend the original Anonymous Zether project such that the sender can now finalize multiple transactions at one time instead of making transactions repeatedly.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit Report",
+          url: "https://drive.google.com/file/d/1YHXklLKwJZNUd2uYccFmi10Eq0BZqURy/view?usp=sharing"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
